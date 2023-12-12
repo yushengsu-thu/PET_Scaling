@@ -1,3 +1,5 @@
+# Exploring the Impact of Model Scaling on Parameter-Efficient Tuning
+
 ## How to run
 
 #### Prepare the envirionment
@@ -147,4 +149,34 @@ deepspeed train_decoder_only.py \
         --gradient_accumulation_steps 1 \
         --per_device_train_batch_size 16 \
         --per_device_eval_batch_size 32 \
+```
+
+#### Citations
+Please cite our paper if it is helpful to your work!
+```
+@inproceedings{su-etal-2023-exploring,
+    title = "Exploring the Impact of Model Scaling on Parameter-Efficient Tuning",
+    author = "Su, Yusheng  and
+      Chan, Chi-Min  and
+      Cheng, Jiali  and
+      Qin, Yujia  and
+      Lin, Yankai  and
+      Hu, Shengding  and
+      Yang, Zonghan  and
+      Ding, Ning  and
+      Sun, Xingzhi  and
+      Xie, Guotong  and
+      Liu, Zhiyuan  and
+      Sun, Maosong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.931",
+    pages = "15062--15078"
+}
 ```
