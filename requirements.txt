@@ -120,7 +120,7 @@ torch==2.0.0
 torchvision==0.15.1
 tqdm==4.66.3
 traitlets==5.9.0
-transformers==4.28.1
+transformers==4.38.0
 triton==2.0.0
 trl==0.4.1
 typing_extensions==4.5.0
